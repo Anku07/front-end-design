@@ -56,7 +56,7 @@ export default function Section1() {
             </div>
           </div>
 
-          {/* <div className="flex  flex-col m-2 lg:flex lg:flex-col">
+          <div className="flex  flex-col m-2 lg:flex lg:flex-col">
             <div className="relative w-[361px] h-[340px]  lg:w-[500.6px] lg:h-[580.53px] lg:p-2 z-10">
               <div className="absolute w-[168px] h-[50px] lg:w-[200px] lg:h-[228px] top-0 gap-[8px] left-[87px] lg:left-[138px]">
                 <div className=" flex flex-col lg:flex lg:flex-col z-0 space-y-4">
@@ -99,7 +99,7 @@ export default function Section1() {
                 />
               </div>
             </div>
-          </div> */}
+          </div>
         </div>
       </div>
     </section>
