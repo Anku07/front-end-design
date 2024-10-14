@@ -52,11 +52,61 @@ export default function Section2() {
           </div>
 
         </div>
-        </div>      
-
+        </div>
         
 
         
+
+         {/* second text info */}
+        <div className="flex flex-col relative w-[361px] h-[226px] rounded-[20px] lg:w-[950px] lg:h-[640px] shadow-xl mt-10 bg-white lg:mx-10">
+          <div className="flex relative justify-between w-[361px] h-[41px] px-4 py-2 gap-7 lg:w-[950px] lg:h-[640px] rounded-t-[20px] ">
+            <div className="flex gap-1 w-[65px] h-[15px] m-[6px] lg:w-[55px] lg:h-[10px] lg:m-[7px]">
+              <img src="red.png" />
+              <img src="yellow.png" />
+              <img src="green.png" />
+            </div>
+
+            <div className="flex justify-evenly w-[162.42px] h-[25px] rounded-[5px] px-2 py-1 lg:w-[494.5px] lg:h-[25px] bg-[rgba(241,245,249,1)] lg:bg-[rgba(241,245,249,1)]">
+              <div className="flex  w-[64px] h-[17px]">
+                <span className="font-normal text-xs leading-[16.8px] text-[rgba(148,163,184,1)]">
+                  utech.com
+                </span>
+              </div>
+            </div>
+
+            <div className="flex">
+              <img src="chevron-left.png" />
+              <img src="chevron-right.png" />
+            </div>
+          </div>
+          <div className="relative">
+            <img
+              src="screen.png"
+              className="lg:w-[1100px] lg:h-[599px] lg:gap-[10px] rounded-md"
+            />
+          </div>
+        </div>
+       
+       {/* third image  */}
+        <div
+          className="flex
+        lg:w-1093 lg:h-[78px] lg:ml-28"
+        >
+          <img src="Lines.png" />
+        </div>
+          
+        {/* fourth part details */}
+        <div className="lg:flex flex w-[30px] h-[30px] gap-[14px] lg:w-[1100px]  lg:h-[64px] justify-between ">
+          <img src="App-thumbnail.png" />
+          <img src="App9.png" />
+          <img src="App8.png" />
+          <img src="App7.png" />
+          <img src="App6.png" />
+          <img src="App5.png" />
+          <img src="App4.png" />
+          <img src="App3.png" />
+          <img src="App2.png" />
+        </div>
       </div>
     </div>
   </section>
