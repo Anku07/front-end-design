@@ -78,7 +78,78 @@ export default function Section3() {
               </div>
             </div>
 
- 
+            {/* small card */}
+            <div className="flex relative lg:w-[550px] lg:h-[212px] w-[336px] h-[232px] top-[170px] left-[41px] gap-4 lg:top-[280px] lg:left-3 ">
+              {/* first card */}
+              <div className="flex flex-col justify-evenly w-[160px] h-[232px] rounded-[10px] lg:w-[200px] lg:h-[210px] p-4 bg-white shadow-xl">
+                <div className="w-[140.33px] h-[136px] ">
+                  <div className="w-[71px] h-[24px] rounded-[4px] px-1 pb-3  bg-[rgba(243,232,255,1)]">
+                    <span className="font-normal text-[14px] leading-[19.6px] text-[rgba(107,33,168,1)] p-1">
+                      Featured
+                    </span>
+                  </div>
+                  <div className="w-[128px] h-[36px] gap-[4px] ">
+                    <span className="font-base text-base leading-[17.6px] text-[rgba(15,23,42,1)] ">
+                      The map of mathematics
+                    </span>
+                  </div>
+
+                  <div className="w-[130px] h-[68px] mt-5">
+                    <p className="font-normal text-xs leading-[16.8px] text-[rgba(71,85,105,1)]">
+                      Egestas elit dui scelerisque ut eu purus aliquam vitae
+                      habitasse.
+                    </p>
+                  </div>
+                </div>
+                <div className="w-[140px] h-[62px] mt-2 gap-[16px] pt-1">
+                  <div className="w-[128px] h-[40px] lg:w-[142px] rounded-lg border-[2px] px-3 py-1 border-[rgba(37,99,235,1)]">
+                    <div className="w-[100px] h-[24px] px-3">
+                      <div className="w-[100px] h-[24px] pl-2">
+                        <span className="font-base text-sm left-5 leading-6 text-[rgba(37,99,235,1)]">
+                          Take Lesson
+                        </span>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              {/* second card */}
+              <div className="flex flex-col justify-evenly w-[160px] h-[232px] lg:w-[180px] lg:h-[210px] rounded-[10px] pt-4 pl-4 bg-white shadow-xl">
+                <div className="w-[10.33px] h-[136px] ">
+                  <div className="w-[65px] h-[24px] rounded-[4px] px-1 pb-3  bg-[rgba(219,234,254,1)]">
+                    <span className="font-normal text-[14px] leading-[19.6px] text-[rgba(30,64,175,1)] p-1">
+                      Popular
+                    </span>
+                  </div>
+                  <div className="w-[128px] h-[36px] gap-[4px] ">
+                    <span className="font-base text-base leading-[17.6px] text-[rgba(15,23,42,1)] ">
+                      Design for how people think
+                    </span>
+                  </div>
+
+                  <div className="w-[140px] h-[68px] mt-5">
+                    <p className="font-normal text-xs leading-[16.8px] text-[rgba(71,85,105,1)]">
+                      Aliquam ut euismod condimentum elementum ultricies
+                      volutpat sit non.
+                    </p>
+                  </div>
+                </div>
+                <div className="w-[140px] h-[72px] mt-2 gap-[16px] pt-1">
+                  <div className="w-[128px] h-[40px] lg:w-[142px] rounded-lg border-[2px] px-3 py-1 border-[rgba(37,99,235,1)]">
+                    <div className="w-[100px] h-[24px] px-3">
+                      <div className="w-[100px] h-[24px] pl-2">
+                        <span className="font-base text-sm leading-6 text-[rgba(37,99,235,1)]">
+                          Take Lesson
+                        </span>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+    
+            </div>
           </div>
         </div>
       </div>
