@@ -55,7 +55,31 @@ export default function Section3() {
           </div>
           </div>
 
+          {/* second part details */}
+          <div className="relative w-[100px] h-[472px] lg:w-[610px] lg:h-[446.97px] ">
+            <div className="absolute w-[300.34px] h-[336.68px] lg:w-[380.18px] lg:h-[348.01px] -left-12  lg:left-[1%]">
+              <img src="sec3blob.png" />
+              <div className="absolute w-[125px] h-[520px] lg:w-[139.0px] lg:h-[582px] bottom-2 left-28 lg:-left-20 lg:-top-12">
+                <img src="sec3icon.png" />
+              </div>
+            </div>
 
+            {/* frame alignment */}
+            <div className="absolute w-[300.89px] h-[245px] lg:w-[400px] lg:h-[291px] bg:white shadow-2xl lg:ml-20">
+              <div className="absolute  w-[340.89px] h-[260px]  lg:h-[351px] lg:w-[520px] px-2 py-2 gap-7 bg-white border-[5px]  rounded-[10px] lg:border-[5px] shadow-2xl border-white lg:px-4 ml-1 ">
+                <div className="absolute flex w-[315px] h-[10px] gap-[5px] lg:w-[408px] m-1">
+                  <img src="red.png" />
+                  <img src="yellow.png" />
+                  <img src="green.png" />
+                </div>
+                <div className="relative w-[320.89px] h-[234px] gap-[10px] lg:w-[509px] lg:h-[0px] top-7 lg:top-6 rounded-t-none lg:-left-4">
+                  <img src="Video.png" className=" rounded-[20px] bottom-1" />
+                </div>
+              </div>
+            </div>
+
+ 
+          </div>
         </div>
       </div>
     </section>
