@@ -148,7 +148,39 @@ export default function Section3() {
                 </div>
               </div>
 
-    
+              {/* third card */}
+              <div className=" flex-col justify-evenly w-[160px] h-[232px] lg:w-[180px] lg:h-[210px] rounded-[10px] p-4 bg-white hidden lg:flex shadow-xl">
+                <div className="w-[140.33px] h-[136px]">
+                  <div className="w-[44px] h-[24px] rounded-[4px] px-1 pb-3 bg-[rgba(220,252,231,1)]">
+                    <span className="font-normal text-[14px] leading-[19.6px] text-[rgba(22,101,52,1)] p-1">
+                      New
+                    </span>
+                  </div>
+                  <div className="w-[128px] h-[36px] gap-[4px]">
+                    <span className="font-base text-base leading-[17.6px] text-[rgba(15,23,42,1)]">
+                      International & commercial law
+                    </span>
+                  </div>
+
+                  <div className="w-[128px] h-[68px] mt-4">
+                    <p className="font-normal text-xs leading-[16.8px] text-[rgba(71,85,105,1)]">
+                      Molestie integer eu arcu, mauris bibendum rhoncus
+                      imperdiet dui.
+                    </p>
+                  </div>
+                </div>
+                <div className="w-[140px] h-[72px] mt-2 gap-[16px] pt-1">
+                  <div className="w-[128px] h-[40px] lg:w-[142px] rounded-lg border-[2px] px-3 py-1 border-[rgba(37,99,235,1)]">
+                    <div className="w-[100px] h-[24px] px-2">
+                      <div className="w-[100px] h-[24px] pl-2">
+                        <span className="font-base text-sm leading-6 text-[rgba(37,99,235,1)]">
+                          Take Lesson
+                        </span>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
             </div>
           </div>
         </div>
