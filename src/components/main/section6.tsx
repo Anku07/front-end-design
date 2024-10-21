@@ -15,6 +15,8 @@ export default function Section6() {
             <img src="button2.png" />
           </div>
         </div>
+      {/* space container  */}
+      <div className="lg:h-20 h-10"></div>
 
       </div>
     </section>
