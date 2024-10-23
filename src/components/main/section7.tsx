@@ -76,6 +76,25 @@ export default function Section7() {
               </div>
             </div>
           </div>
+
+          {/* photo alignment */}
+          <div className="absolute -bottom-[300px]  lg:-bottom-[200px]">
+            <div className="absolute mt-6 w-[310px] h-[179px] rounded-[10px] border-2-[5px] gap-[10px] lg:w-[340px] lg:h-[100px] lg:-top-72 bottom-[285px] -right-[120px] lg:-right-20 ht-1">
+              <img src="sec7pic2.png" className="w-[100px]h-[170px]" />
+            </div>
+            <div className="relative lg:w-[240px] lg:h-[158px] lg:rounded-[10px] border-5px  gap-10px lg:bottom-[445px] left-60 w-[173px] h-[179px] bottom-[430px] ">
+              <img src="sec7pic1.png" className="" />
+              <div className=" absolute lg:w-[130px] lg:h-[0px]  border-[rgba(250,204,21,1)] gap-[10px] lg:bottom-28 bottom-14 left-36 lg:visible hidden lg:flex">
+                <img src="sec7pic3.svg" className="lg:w-[400px]w-40 lg:h-40" />
+              </div>
+            </div>
+            <div className="absolute lg:bottom-[282px] lg:w-[230px] lg:h-[140px] lg:left-[300px] bottom-[281px] left-72 w-[135px] h-[179px] hidden lg:flex">
+              <img
+                src="sec7pic4.png"
+                className="lg:w-[300px] lg:h-[197px] w-[250px] h-[170px]"
+              />
+            </div>
+          </div>
         </div>
       </div>
     </section>
