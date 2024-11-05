@@ -111,6 +111,57 @@ export default function Footer() {
             </a>
           </div>
         </div>
+
+        {/* info of copyright  */}
+        <div className=" border-t lg:border-gray-700 lg:mx-16 lg:mt-7  mx-5 mt-4 border-gray-600">
+          <div className="grid lg:py-12 px-17 py-5  grid-cols-1">
+            <div className="flex lg:items-center  flex-col lg:justify-between lg:flex-row gap-2 ">
+              <span className="text-base text-white pt-4">
+                <a>uteach @ 2023. All rights reserved.</a>
+              </span>
+              <ul className="flex items-center gap-9 mt-4 lg:mt-0">
+                <li>
+                  <a href="javascript:;" className="text-sm text-white">
+                    Terms
+                  </a>
+                </li>
+                <li>
+                  <a href="javascript:;" className="text-sm text-white">
+                    Privacy
+                  </a>
+                </li>
+                <li>
+                  <a href="javascript:;" className="text-sm text-white">
+                    Contact
+                  </a>
+                </li>
+                <li>
+                  <a
+                    href="javascript:;"
+                    className="flex text-sm text-white mt-1"
+                  >
+                    <img src="world.png" />
+                    <span className="mt-1">EN</span>
+                  </a>
+                </li>
+                <li>
+                  <a
+                    href="javascript:;"
+                    className="flex text-sm text-white mt-1"
+                  >
+                    <img src="euro.png" className="w-[20px]" />
+                    <span className="mt-1">EUR</span>
+                  </a>
+                </li>
+                <li>
+                  <a href="javascript:;" className="text-sm text-white mt-2">
+                    <img src="accessibility.png" className="w-[20px]" />
+                  </a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
       </div>
     </>
   );
